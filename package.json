@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Coding a dynamicaly rendered restaurant page with JS",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SajmonNowak/Restaurant-Page.git"
+  },
+  "author": "Sajmon Nowak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SajmonNowak/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/SajmonNowak/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
