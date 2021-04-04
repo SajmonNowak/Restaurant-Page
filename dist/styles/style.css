@@ -11,7 +11,14 @@
 body {
     font-family: 'lato';
     font-size: 24px;
+    position:relative;
+
 }
+
+#content {
+    position: relative;
+}
+
 
 h1{
     font-size: 48px;
@@ -47,12 +54,12 @@ button {
 
 .coverDiv {
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 60vh;
 }
 
 .coverVideoDiv {
-    height: 100vh;
+    height: 100%;
 }
 
 .imgDiv {
@@ -90,7 +97,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     color: var(--myGold)
 }
 
@@ -101,15 +108,16 @@ nav > * {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin: 50px;
+    padding-top: 20px;
+    border: none;
 }
 
 /* Home */
 
 .videoDiv > video{
     object-fit: cover;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     top: 0;
     left: 0;
     position: absolute;
@@ -162,10 +170,9 @@ nav > * {
 /* Footer */
 
 footer{
-    display: relative;
-    bottom: 0;
     display: flex;
     width: 100%;
+    height:30px;
     justify-content: center;
     font-size: 16px;
     padding: 5px;
@@ -178,7 +185,7 @@ footer{
 .mapInfoDiv {
     padding-bottom: 80px;
     padding: 20px;
-    width: 100vw;
+    width: 100%;
     height: 70vh;
     display: flex;
     justify-content: space-around;
@@ -267,3 +274,4 @@ footer{
         border: 1px solid black;
     }
 }
+
