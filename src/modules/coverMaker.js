@@ -22,9 +22,12 @@ function createBackground (type, link){
     if (type == 'video'){
         mediaDiv.classList.add('videoDiv');
         media = document.createElement('video');
-        media.setAttribute('autoplay', true);
-        media.setAttribute('muted', true);
-        media.setAttribute('loop', true);
+        // media.setAttribute('autoplay', true);
+        // media.setAttribute('muted', true);
+        // media.setAttribute('loop', true);
+        media.autoplay = true;
+        media.muted = true;
+        media.loop = true;
     } else if (type == 'image'){
         mediaDiv.classList.add('imgDiv');
         media = document.createElement('img');
